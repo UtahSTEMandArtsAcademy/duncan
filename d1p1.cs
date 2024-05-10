@@ -1,4 +1,6 @@
-﻿string input = @"turn off 660,55 through 986,197
+﻿using System.ComponentModel;
+
+string input = @"turn off 660,55 through 986,197
 turn off 341,304 through 638,850
 turn off 199,133 through 461,193
 toggle 322,558 through 977,958
@@ -300,5 +302,32 @@ toggle 580,592 through 671,900
 toggle 296,687 through 906,775";
 foreach (string cmd in input.Split('\n')) 
 {
-    
+    string[] cmd_parts = cmd.Split(' ');
+    string startstr  = cmd_parts[cmd_parts.Length -3];
+    string endstr  = cmd_parts[cmd_parts.Length -1];
+
+    Switch command;
+    if(cmd.Contains("off")) command = Switch.Off;
+    else if(cmd.Contains("on")) command = Switch.On;
+    else if(cmd.Contains("toggle")) command = Switch.Toggle;
+    else continue;
+    Pos start = new Pos(){
+        x=0,
+        y=0,
+    };
+
+    Console.WriteLine(cmd + " | " + command);
+    // var rangeEnd;
+
 } 
+
+enum Switch {
+    On,
+    Off,
+    Toggle
+}
+struct Pos{
+    public int x;
+    public int y;
+}
+
