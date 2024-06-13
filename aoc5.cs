@@ -1010,11 +1010,20 @@ dvszwmarrgswjxmb";
 
 Console.WriteLine(input.Split("\n").Count((string name )=>{
     int vouls = 0;
+    int nice = 0;
  for(int i = 0; i < name.Length; i++){
     char letter = name[i];
     if("aeiou".Contains(letter)){
         vouls++;
     }
  }
+
+
+
+ 
+ if(vouls >= 3 && ){
+    nice++;
+ }
+
  return true; 
 }));
