@@ -1,0 +1,15 @@
+/Users/leesacademy/Documents/AOC/duncan/obj/Debug/net8.0/duncan.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leesacademy/Documents/AOC/duncan/obj/Debug/net8.0/duncan.AssemblyInfoInputs.cache
+/Users/leesacademy/Documents/AOC/duncan/obj/Debug/net8.0/duncan.AssemblyInfo.cs
+/Users/leesacademy/Documents/AOC/duncan/obj/Debug/net8.0/duncan.csproj.CoreCompileInputs.cache
+/Users/leesacademy/Documents/AOC/duncan/obj/Debug/net8.0/duncan.sourcelink.json
+/Users/leesacademy/Documents/AOC/duncan/bin/Debug/net8.0/duncan
+/Users/leesacademy/Documents/AOC/duncan/bin/Debug/net8.0/duncan.deps.json
+/Users/leesacademy/Documents/AOC/duncan/bin/Debug/net8.0/duncan.runtimeconfig.json
+/Users/leesacademy/Documents/AOC/duncan/bin/Debug/net8.0/duncan.dll
+/Users/leesacademy/Documents/AOC/duncan/bin/Debug/net8.0/duncan.pdb
+/Users/leesacademy/Documents/AOC/duncan/obj/Debug/net8.0/duncan.dll
+/Users/leesacademy/Documents/AOC/duncan/obj/Debug/net8.0/refint/duncan.dll
+/Users/leesacademy/Documents/AOC/duncan/obj/Debug/net8.0/duncan.pdb
+/Users/leesacademy/Documents/AOC/duncan/obj/Debug/net8.0/duncan.genruntimeconfig.cache
+/Users/leesacademy/Documents/AOC/duncan/obj/Debug/net8.0/ref/duncan.dll
